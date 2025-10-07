@@ -143,12 +143,12 @@ public class MobNetItem extends Item implements IItemSize {
 
 	@Override
 	public Size getSize(final ItemStack itemStack) {
-		return itemStack.hasTag() ? Size.HUGE : Size.LARGE;
+		return Size.LARGE;
 	}
 
 	@Override
 	public Weight getWeight(final ItemStack itemStack) {
-		return itemStack.hasTag() ? Weight.VERY_HEAVY : Weight.MEDIUM;
+		return Weight.MEDIUM;
 	}
 
 	@Override
